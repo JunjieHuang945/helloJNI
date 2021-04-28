@@ -23,4 +23,5 @@ target_link_libraries( # Specifies the target library.将所有的add_library中
  
                        # Links the target library to the log library
                        # included in the NDK.
+        ${log-lib}
                         )
